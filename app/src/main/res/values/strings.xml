@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextToSpeech</string>
+    <string name="api">http://localhost:8080</string>
+</resources>
