@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">TextToSpeech</string>
-    <string name="api">http://localhost:8080</string>
+    <string name="api">http://backend-env.eba-cnpfcgb7.ap-south-1.elasticbeanstalk.com</string>
 </resources>

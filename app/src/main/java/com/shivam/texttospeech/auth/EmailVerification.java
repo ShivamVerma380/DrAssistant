@@ -48,7 +48,7 @@ public class EmailVerification extends AppCompatActivity {
                     OkHttpClient client = new OkHttpClient();
 
                     Request request = new Request.Builder()
-                            .url(R.string.api+"/verify-email/"+emailInput.getText().toString())
+                            .url(getString(R.string.api)+"/verify-email/"+emailInput.getText().toString())
                             .build();
                     client.newCall(request).enqueue(new Callback() {
                         @Override
