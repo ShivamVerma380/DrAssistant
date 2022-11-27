@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.google.android.material.card.MaterialCardView;
 import com.shivam.texttospeech.MainActivity;
+import com.shivam.signup.LoginActivity;
 import com.shivam.texttospeech.R;
 
 public class OTPInput extends AppCompatActivity {
@@ -41,7 +42,7 @@ public class OTPInput extends AppCompatActivity {
                     String email = intent.getStringExtra("email");
                     if(otp.equals(inputOtp)){
                         Toast.makeText(getApplicationContext(),email+" verified successfully!!",Toast.LENGTH_SHORT).show();
-                        Intent intent1 = new Intent(OTPInput.this, MainActivity.class);
+                        Intent intent1 = new Intent(OTPInput.this, LoginActivity.class);
                         startActivity(intent1);
                         finish();
                     }else{
