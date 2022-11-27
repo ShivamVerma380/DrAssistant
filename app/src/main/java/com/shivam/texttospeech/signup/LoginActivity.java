@@ -1,4 +1,4 @@
-package com.shivam.texttospeech.auth;
+package com.shivam.texttospeech.signup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
