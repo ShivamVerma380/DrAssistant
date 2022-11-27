@@ -18,10 +18,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".signup.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".signup.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".auth.OTPInput"
